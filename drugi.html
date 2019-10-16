@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>News 24/7</title>
+        <meta charset="UTF-8" />
+        <meta name="keywords" content="news, hot, politics, sport, weather" />
+        <meta name="description" content="Site with all the latest news" />
+        <meta name="author" content="Kamil Szustak" />
+        <meta name="robots" content="all" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="html5.js"></script>
+        <script src="scripts.js"></script>
+    </head>
+
+     <body>
+        <header>
+            <h1 id="site_header" class="main_header" onclick="onHeaderClick()">
+                <a href="index.html">News 24/7</a>
+            </h1>
+        </header>
+
+        <nav class="main_menu">
+            <h3>
+                <ul>
+                    <li>
+                        <a href="">Hot</a>
+                    </li>
+
+                    <li>
+                        <a href="">Politics</a>
+                    </li>
+
+                    <li>
+                        <a href="">Sport</a>
+                    </li>
+
+                    <li>
+                        <a href="">Weather</a>
+                    </li>
+                </ul>
+            </h3>
+        </nav>
+
+        <aside>
+            <div>
+                <a href="http://facebook.com">
+                    <img src="facebook.png" width="32px" height="32px" />
+                </a>
+            </div>
+
+            <div>
+                <a href="http://twitter.com">
+                    <img src="twitter.png" width="32px" height="32px" />
+                </a>
+            </div>
+        </aside>
+
+        <article> 
+            <h1 class="article_header">
+                Lorem ipsum dolor sit amet
+            </h1>             
+
+            <p class="main_article_text">
+                <b>Lorem ipsum dolor sit amet</b>, consectetur adipiscing <dfn>elit</dfn>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <i>Ut enim ad minim veniam</i>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <span style="color: blue">Duis aute irure dolor</span> in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            
+            <div class="quote">
+                <blockquote id="article_quote">
+                    Lorem ipsum dolor sit <b>amet</b>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	
+                </blockquote>
+            </div>
+
+            <p>
+                <small>
+                    Kamil Szustak
+                </small>
+            </p>
+        </article>
+
+        <div>
+            <iframe id="video_frame" width="640px" height="480px" src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe>
+        </div>
+
+        <div>
+            <button id="video_button" onclick="changeVideoFrameVisibility()">Hide/show video</button>
+        </div>
+
+        <div>
+            <button id="easter_egg_button" onclick="showEasterEgg()">Don't click me!</button>
+        </div>
+
+        <div>
+            <table id="animals_table">
+                <tr>
+                    <td class="table_header">Number</td>
+                    <td class="table_header">Animal</td>
+                    <td class="table_header">Amount</td>
+                </tr>
+
+                <tr>
+                    <td class="table_row_number">1</td>
+                    <td>Dog</td>
+                    <td>10</td>
+                </tr>
+
+                <tr>
+                    <td class="table_row_number">2</td>
+                    <td>Cat</td>
+                    <td>5</td>
+                </tr>
+
+                <tr>
+                    <td class="table_row_number">3</td>
+                    <td>Hamster</td>
+                    <td>15</td>
+                </tr>
+
+                <tr>
+                    <td class="table_row_number">4</td>
+                    <td>Horse</td>
+                    <td>3</td>
+                </tr>
+
+                <tr>
+                    <td class="table_row_number">5</td>
+                    <td>Fish</td>
+                    <td>10</td>
+                </tr>
+            </table>
+        </div>
+
+        <footer>
+            <div>
+                <a href="" onclick="showContactAlert()">Contact</a>
+            </div>
+
+            <div>
+                <a href="" onclick="showAboutUsAlert()">About us</a>
+            </div>
+        </footer>
+    </body>
+</html>
